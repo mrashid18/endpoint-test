@@ -21,7 +21,7 @@ def get_comment():
         #     json.dump(some_json, outfile)
         #     outfile.write('\n')
         # outfile.close()
-    return jsonify({'Response': some_json}),201
+    return jsonify({'Response': 'Received'}),201
 
 @app.route('/post', methods=['GET','POST'])
 def get_post():
@@ -32,7 +32,7 @@ def get_post():
         #     json.dump(some_json, outfile)
         #     outfile.write('\n')
         # outfile.close()
-    return jsonify({'Response': some_json}),201
+    return jsonify({'Response': 'Received'}),201
 
 if __name__ == '__main__':
     #process = NLP
