@@ -7,9 +7,9 @@ import json
 app = Flask(__name__)
 #run_with_ngrok(app)
 
-@app.route('/', methods=['GET','POST'])
-def homepage():
-    return render_template('index.html')
+# @app.route('/', methods=['GET','POST'])
+# def homepage():
+#     return render_template('index.html')
 
 
 @app.route('/comment', methods=['GET','POST'])
